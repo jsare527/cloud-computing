@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   check-bats-version:
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, this is a message from github actions!"
       - uses: actions/checkout@v4
